@@ -1,4 +1,5 @@
 import express from 'express'
+import { fetch } from 'cross-fetch'
 import { graphqlHTTP } from 'express-graphql'
 import cors from 'cors'
 import path from 'path'
